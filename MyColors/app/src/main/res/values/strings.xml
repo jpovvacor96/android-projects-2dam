@@ -1,0 +1,11 @@
+<resources>
+    <string name="tv_titulo">My Colors</string>
+    <string name="sw_prueba">Activar aplicación</string>
+    <string name="rb_opcion1">Saludar</string>
+    <string name="rb_opcion2">Despedir</string>
+    <string name="btn_seleccion">Haz click</string>
+    <string name="et_nombre">Escribe tu nombre</string>
+    <string name="msgNeedName">Por favor, escribe tu nombre</string>
+    <string name="msgSaludo">Hola %1$s</string>
+    <string name="msgDespedida">Adiós %1$s</string>
+</resources>
