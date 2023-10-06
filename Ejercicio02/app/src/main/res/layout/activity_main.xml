@@ -6,44 +6,134 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/tv_titulo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.193" />
-
-    <EditText
-        android:id="@+id/et_nombre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Name"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/tv_titulo"
-        app:layout_constraintHorizontal_bias="0.511"
-        app:layout_constraintStart_toStartOf="@+id/tv_titulo"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.357" />
-
     <Button
         android:id="@+id/btn_ingresar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="@string/btn_ingresar"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/tv_titulo"
-        app:layout_constraintHorizontal_bias="0.571"
-        app:layout_constraintStart_toStartOf="@+id/tv_titulo"
+        app:layout_constraintEnd_toEndOf="@+id/ibtn"
+        app:layout_constraintStart_toStartOf="@+id/ibtn"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.584" />
+        app:layout_constraintVertical_bias="0.01" />
+
+    <ImageButton
+        android:id="@+id/ibtn"
+        android:layout_width="81dp"
+        android:layout_height="77dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.124"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <CheckBox
+        android:id="@+id/cb_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cb_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ibtn"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="@+id/ibtn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <CheckBox
+        android:id="@+id/cb_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cb_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ibtn"
+        app:layout_constraintStart_toStartOf="@+id/ibtn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.461" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="254dp"
+        android:layout_height="103dp"
+        app:layout_constraintBottom_toTopOf="@+id/sw1"
+        app:layout_constraintEnd_toEndOf="@+id/ibtn"
+        app:layout_constraintStart_toStartOf="@+id/ibtn"
+        app:layout_constraintTop_toBottomOf="@+id/cb_2">
+
+        <RadioButton
+            android:id="@+id/rb_multiplicar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_multiplicar" />
+
+        <RadioButton
+            android:id="@+id/rb_dividir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_dividir" />
+    </RadioGroup>
+
+    <Switch
+        android:id="@+id/sw1"
+        android:layout_width="217dp"
+        android:layout_height="72dp"
+        android:text="@string/sw1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/radioGroup"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="@+id/radioGroup"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.745" />
+
+    <ToggleButton
+        android:id="@+id/tb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/tb1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/sw1"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="@+id/sw1"
+        app:layout_constraintTop_toBottomOf="@+id/sw1"
+        app:layout_constraintVertical_bias="0.034" />
+
+    <EditText
+        android:id="@+id/et_primero"
+        android:layout_width="263dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        android:hint="@string/et_primero"
+        app:layout_constraintBottom_toTopOf="@+id/et_segundo"
+        app:layout_constraintEnd_toEndOf="@+id/ibtn"
+        app:layout_constraintStart_toStartOf="@+id/ibtn"
+        app:layout_constraintTop_toBottomOf="@+id/ibtn" />
+
+    <EditText
+        android:id="@+id/et_segundo"
+        android:layout_width="263dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        android:hint="@string/et_segundo"
+        app:layout_constraintBottom_toTopOf="@+id/cb_1"
+        app:layout_constraintEnd_toEndOf="@+id/et_primero"
+        app:layout_constraintStart_toStartOf="@+id/et_primero" />
+
+    <TextView
+        android:id="@+id/tv_resultado"
+        android:layout_width="199dp"
+        android:layout_height="59dp"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ibtn"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="@+id/ibtn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.936" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

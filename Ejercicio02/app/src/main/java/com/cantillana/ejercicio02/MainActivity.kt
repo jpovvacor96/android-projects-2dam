@@ -7,8 +7,16 @@ import com.cantillana.ejercicio02.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
+    //##################
+    //LISTA DE ATRIBUTOS
+    //##################
+
     /**Variable necesaria para utilizar View Binding*/
     private lateinit var binding:ActivityMainBinding
+
+    //###################
+    //MÉTODOS FUNCIONALES
+    //###################
 
     /**
      * Define el comportamiento de la aplicación al iniciarse
@@ -17,20 +25,18 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding=ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.btnIngresar.setOnClickListener{
-            saludar()
+        binding.btnIngresar.setOnClickListener {
+            calcular()
         }
     }
 
-    /**
-     * Saluda al usuario si ha introducido un nombre o pide introducirle si no hay ninguno ingresado
-     */
-    private fun saludar(){
-        if(!binding.etNombre.text.toString().isEmpty()){
-            Toast.makeText(this, "Hola", Toast.LENGTH_LONG).show()
+    private fun calcular(){
+        val numero1=binding.etPrimero.text.toString().toInt()
+        val numero2=binding.etSegundo.text.toString().toInt()
+        var resultado=0
+        if(binding.cb1.isChecked){
+            resultado=numero1+numero2
         }
-        else{
-            Toast.makeText(this, "Escribe un texto", Toast.LENGTH_LONG).show()
-        }
+        binding.tvResultado.text="Resultado: ${resultado}"
     }
 }

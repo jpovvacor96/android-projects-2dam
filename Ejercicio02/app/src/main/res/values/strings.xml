@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Ejercicio02</string>
+    <string name="tv_titulo">Ejercicio02</string>
+    <string name="et_nombre">Introduce tu nombre</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="saludo">Hola </string>
+    <string name="cb_1">Sumar</string>
+    <string name="cb_2">Restar</string>
+    <string name="rb_multiplicar">Multiplicar</string>
+    <string name="rb_dividir">Dividir</string>
+    <string name="sw1">Activar botón</string>
+    <string name="tb1">Activar botón</string>
+    <string name="et_primero">Introduce el primer valor</string>
+    <string name="et_segundo">Introduce el segundo valor</string>
 </resources>
