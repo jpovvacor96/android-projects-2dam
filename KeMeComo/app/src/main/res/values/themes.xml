@@ -5,8 +5,12 @@
     </style>
 
     <style name="Theme.KeMeComo" parent="Base.Theme.KeMeComo">
+        <!--Color primario de la aplicación-->
         <item name="colorPrimary">@color/colorPrimary</item>
+        <!--Color de fondo de la aplicación-->
         <item name="android:colorBackground">@color/colorOnPrimary</item>
-        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="android:fontFamily">@font/muli_bold</item>
+        <!--Color de la barra superior-->
+        <item name="android:colorPrimaryDark">@color/colorPrimaryVariant</item>
     </style>
 </resources>

@@ -4,18 +4,11 @@ plugins {
 }
 
 android {
-
-    buildFeatures{
-        viewBinding=true
-    }
-
-    namespace = "com.cantillana.kemecomo"
+    namespace = "com.cantillana.kemecomo2"
     compileSdk = 33
 
-
-
     defaultConfig {
-        applicationId = "com.cantillana.kemecomo"
+        applicationId = "com.cantillana.kemecomo2"
         minSdk = 24
         targetSdk = 33
         versionCode = 1
@@ -46,7 +39,7 @@ dependencies {
 
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("com.google.android.material:material:1.9.0")
+    implementation("com.google.android.material:material:1.10.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")

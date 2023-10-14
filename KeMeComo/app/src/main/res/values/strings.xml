@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">KeMeComo</string>
+    <string name="btn_suerte">¡ÉCHALO A SUERTES!</string>
+    <string name="tv_titulo">KeMeComo</string>
+    <string name="et_nuevo">Teclea plato</string>
+    <string name="btn_nuevo">AÑADE NUEVO</string>
 </resources>
