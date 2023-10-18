@@ -1,17 +1,18 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.KeMeComo" parent="Theme.Material3.DayNight.NoActionBar">
-
+    <style name="Base.Theme.BoteGracias" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.KeMeComo" parent="Base.Theme.KeMeComo">
+    <style name="Theme.BoteGracias" parent="Base.Theme.BoteGracias">
         <!--Color primario de la aplicación-->
         <item name="colorPrimary">@color/colorPrimary</item>
         <!--Color de fondo de la aplicación-->
         <item name="android:colorBackground">@color/colorOnPrimary</item>
-        <!--Fuente de texto-->
         <item name="android:fontFamily">@font/muli_bold</item>
         <!--Color de la barra superior-->
         <item name="android:colorPrimaryDark">@color/colorPrimaryVariant</item>
     </style>
+
 </resources>

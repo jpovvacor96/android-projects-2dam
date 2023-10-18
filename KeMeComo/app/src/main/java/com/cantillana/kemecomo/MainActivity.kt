@@ -35,7 +35,6 @@ class MainActivity : AppCompatActivity() {
         if(nuevoPlato.isNotEmpty()){
             this.listOfPlatos.add(nuevoPlato)
             binding.etNuevo.text.clear()
-
         }
         else{
             Toast.makeText(this, "No has añadido ningún plato nuevo", Toast.LENGTH_LONG).show()

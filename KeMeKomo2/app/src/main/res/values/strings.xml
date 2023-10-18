@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">KeMeComo</string>
+    <string name="tv_titulo">KeMeComo</string>
+    <string name="msg_tope">El tope es:</string>
+    <string name="tv_tituloBarra">Número tope</string>
+    <string name="des_botonAleatorio">Botón de muestra de platos aleatorios</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BoteGracias</string>
+    <string name="et_precio">Sartenazo</string>
+    <string name="tv_calidad">¿Qué le pareció el servicio?</string>
+    <string name="rb_genial">Genial (20%)</string>
+    <string name="rb_bien">Bien (12%)</string>
+    <string name="rb_correcto">Correcto (8%)</string>
+    <string name="sw_decimales">¿Sin decimales?</string>
+</resources>
