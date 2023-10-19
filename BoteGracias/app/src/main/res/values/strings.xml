@@ -6,4 +6,6 @@
     <string name="rb_bien">Bien (12%)</string>
     <string name="rb_correcto">Correcto (8%)</string>
     <string name="sw_decimales">¿Sin decimales?</string>
+    <string name="btn_calcular">CALCULANDO</string>
+    <string name="tv_propina">Montante propina</string>
 </resources>

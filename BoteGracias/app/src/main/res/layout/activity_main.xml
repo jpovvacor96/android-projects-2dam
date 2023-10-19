@@ -10,7 +10,7 @@
         android:id="@+id/tv_titulo"
         android:layout_width="414dp"
         android:layout_height="49dp"
-        android:background="@color/colorPrimary"
+        android:background="@color/colorMarron"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
         android:paddingRight="0dp"
@@ -28,25 +28,26 @@
         android:layout_height="132dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintHorizontal_bias="0.125"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.178"
+        app:layout_constraintVertical_bias="0.145"
         app:srcCompat="@drawable/granasador_logo" />
 
     <EditText
         android:id="@+id/et_precio"
-        android:layout_width="156dp"
-        android:layout_height="45dp"
+        android:layout_width="209dp"
+        android:layout_height="54dp"
         android:ems="10"
-        android:inputType="text"
         android:hint="@string/et_precio"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintHorizontal_bias="0.089"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_titulo"
-        app:layout_constraintVertical_bias="0.408" />
+        app:layout_constraintVertical_bias="0.331" />
 
     <TextView
         android:id="@+id/tv_calidad"
@@ -62,10 +63,15 @@
         app:layout_constraintVertical_bias="0.059" />
 
     <RadioGroup
-        android:layout_width="161dp"
-        android:layout_height="141dp"
-        tools:layout_editor_absoluteX="22dp"
-        tools:layout_editor_absoluteY="401dp">
+        android:id="@+id/rg_opciones"
+        android:layout_width="273dp"
+        android:layout_height="162dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_calidad"
+        app:layout_constraintVertical_bias="0.0">
 
         <RadioButton
             android:id="@+id/rb_genial"
@@ -88,13 +94,40 @@
 
     <Switch
         android:id="@+id/sw_decimales"
-        android:layout_width="394dp"
-        android:layout_height="44dp"
+        android:layout_width="343dp"
+        android:layout_height="63dp"
         android:text="@string/sw_decimales"
+        android:thumbTint="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.812" />
+        app:layout_constraintVertical_bias="0.817" />
+
+    <TextView
+        android:id="@+id/tv_propina"
+        android:layout_width="187dp"
+        android:layout_height="27dp"
+        android:text="@string/tv_propina"
+        android:textAlignment="textEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_calcular"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_calcular"
+        android:layout_width="339dp"
+        android:layout_height="52dp"
+        android:backgroundTint="@color/colorMarron"
+        android:text="@string/btn_calcular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sw_decimales"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
