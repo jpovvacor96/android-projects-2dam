@@ -76,7 +76,7 @@
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ib_random"
-        app:layout_constraintVertical_bias="0.396" />
+        app:layout_constraintVertical_bias="0.655" />
 
     <TextView
         android:id="@+id/tv_tituloBarra"

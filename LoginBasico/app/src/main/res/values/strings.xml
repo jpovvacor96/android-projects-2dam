@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LoginBasico</string>
+    <string name="tv_titulo">Login Básico</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_regresar">VOLVER</string>
+    <string name="tv_necesario">Registro Necesario</string>
+    <string name="tv_accesoCorrecto">Acceso Correcto</string>
+    <string name="et_user">Usuario</string>
+    <string name="et_password">Contraseña</string>
+</resources>
