@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyRecyclerView</string>
+    <string name="iv_animalImage">Imagen del animal</string>
+</resources>
