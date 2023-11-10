@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyRobots</string>
+    <string name="tv_titulo">LISTA DE ROBOTS</string>
+    <string name="lorem"> Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit. Donec a lobortis dolor. Sed elementum,
+        est a posuere porttitor, arcu nisl aliquam diam, ac faucibus elit lacus
+        ut elit. Proin vitae leo egestas sem sagittis molestie. Quisque semper neque
+        odio, sed mattis tortor dapibus ornare. Aliquam cursus malesuada lorem, ut
+        porttitor risus cursus ac. Ut est ipsum, viverra vitae vehicula quis, scelerisque
+        a lectus. Ut commodo dui vel est tempus laoreet. Nunc hendrerit tincidunt congue.
+        Etiam nec odio ex. Phasellus hendrerit nunc ultrices, vulputate erat eu, blandit dui.
+        Sed vulputate dignissim felis in vehicula. Sed nunc risus, rutrum sed egestas et,
+        malesuada congue massa. Curabitur maximus lacus nec turpis hendrerit, quis ultrices
+        lectus laoreet. Praesent quis eros non ex volutpat pharetra in id arcu. </string>
+</resources>

@@ -15,6 +15,11 @@ class SuperHeroViewHolder(view: View): RecyclerView.ViewHolder(view) {
         binding.tvRealName.text=superheroModel.realName
         binding.tvPublisher.text=superheroModel.publisher
         Glide.with(binding.ivSuperHero.context).load(superheroModel.photo).into(binding.ivSuperHero)
+
+        //binding al item view set onclicklistener
+        //val intento2=Intent()
+
+
     }
 
 }
