@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etDes"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Ingrese descripción"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etCod"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <EditText
+        android:id="@+id/etCod"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Ingrese código"
+        android:inputType="number"
+        android:importantForAutofill="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <EditText
+        android:id="@+id/etPre"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Ingrese precio"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDes"
+        app:layout_constraintVertical_bias="0.072" />
+
+    <Button
+        android:id="@+id/btnAlta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAlta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPre"
+        app:layout_constraintVertical_bias="0.139" />
+
+    <Button
+        android:id="@+id/btnConsultaCod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnConsultaCod"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAlta"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <Button
+        android:id="@+id/btnConsultaDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnConsultaDes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnConsultaCod"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <Button
+        android:id="@+id/btnBajaCod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnBajaCod"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnConsultaDes"
+        app:layout_constraintVertical_bias="0.091" />
+
+    <Button
+        android:id="@+id/btnMod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnMod"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBajaCod"
+        app:layout_constraintVertical_bias="0.161" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

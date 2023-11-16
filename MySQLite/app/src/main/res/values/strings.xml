@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MySQLite</string>
+    <string name="btnAlta">Alta</string>
+    <string name="btnConsultaCod">Consulta por código</string>
+    <string name="btnConsultaDes">Consulta por descripción</string>
+    <string name="btnBajaCod">Baja por código</string>
+    <string name="btnMod">Modificación</string>
+</resources>

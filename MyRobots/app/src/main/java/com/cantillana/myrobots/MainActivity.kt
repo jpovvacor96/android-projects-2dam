@@ -1,6 +1,5 @@
 package com.cantillana.myrobots
 
-import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
