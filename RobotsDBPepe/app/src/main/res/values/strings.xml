@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RobotsDBPepe</string>
+    <string name="etCod">Ingrese código</string>
+    <string name="etNombre">Ingrese el nombre</string>
+    <string name="etEmail">Ingrese el email</string>
+    <string name="etInfo">Información</string>
+    <string name="etFoto">URL de la foto</string>
+    <string name="btnAlta">Alta</string>
+    <string name="btnConsultaCod">Consulta por código</string>
+    <string name="btnBajaCod">Baja por código</string>
+    <string name="btnMod">Modificación</string>
+    <string name="btnMostrarRecycler">Mostrar RecyclerView</string>
+    <string name="tvTitulo">LISTA DE ROBOTS</string>
+    <string name="btnLimpiar">Limpiar campos</string>
+    <string name="contentFoto">Foto del robot</string>
+    <string name="btnVolver">Volver</string>
+</resources>

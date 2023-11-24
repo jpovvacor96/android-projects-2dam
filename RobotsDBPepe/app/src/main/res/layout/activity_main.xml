@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etCod"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/etCod"
+        android:inputType="number"
+        android:importantForAutofill="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/etNombre"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etCod"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/etEmail"
+        android:importantForAutofill="no"
+        android:inputType="textEmailSubject"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNombre"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <EditText
+        android:id="@+id/etInfo"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="@string/etInfo"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEmail"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <EditText
+        android:id="@+id/etFoto"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="@string/etFoto"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etInfo"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <Button
+        android:id="@+id/btnConsultaCod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnConsultaCod"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAlta"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <Button
+        android:id="@+id/btnMod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnMod"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBajaCod"
+        app:layout_constraintVertical_bias="0.056" />
+
+    <Button
+        android:id="@+id/btnAlta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAlta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etFoto"
+        app:layout_constraintVertical_bias="0.088" />
+
+    <Button
+        android:id="@+id/btnBajaCod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnBajaCod"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnConsultaCod"
+        app:layout_constraintVertical_bias="0.034" />
+
+    <Button
+        android:id="@+id/btnMostrarRecycler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnMostrarRecycler"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMod"
+        app:layout_constraintVertical_bias="0.076" />
+
+    <Button
+        android:id="@+id/btnLimpiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnLimpiar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMostrarRecycler"
+        app:layout_constraintVertical_bias="0.121" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
