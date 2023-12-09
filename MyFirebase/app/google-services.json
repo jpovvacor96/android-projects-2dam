@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "431900100276",
+    "project_id": "myfirebase-3310a",
+    "storage_bucket": "myfirebase-3310a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431900100276:android:2afceacdb3ed774d00f9e1",
+        "android_client_info": {
+          "package_name": "com.cantillana.myfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD8wDQMHn6IdAVUt0pFwnXoTUgCM4o4Lo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
