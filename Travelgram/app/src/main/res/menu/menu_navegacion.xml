@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/btnNavegacionInicio"
+        android:title="Inicio"
+        app:showAsAction="never"
+        android:icon="@drawable/icon_navegacion_inicio"/>
+    <item
+        android:id="@+id/btnNavegacionNuevo"
+        android:title="Añadir"
+        app:showAsAction="never"
+        android:icon="@drawable/icon_navegacion_nuevo"/>
+    <item
+        android:id="@+id/btnNavegacionPerfil"
+        android:title="Perfil"
+        app:showAsAction="never"
+        android:icon="@drawable/icon_navegacion_perfil"/>
+</menu>
